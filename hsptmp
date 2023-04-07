@@ -1,0 +1,627 @@
+*test
+	key1=0
+	i1=0
+	dance1=0
+	sc1=0
+	i=0
+	a1=0
+		notesel buf
+	noteload "dance.txt"
+	noteget s1,i:i++
+	t1=s1
+	noteget s1,i:i++
+	t2=s1
+	noteget s1,i:i++
+	t3=s1
+	noteget s1,i:i++
+	t4=s1
+	noteget s1,i:i++
+	t5=s1
+	noteget s1,i:i++
+	t6=s1
+	noteget s1,i:i++
+	t7=s1
+	noteget s1,i:i++
+	t8=s1
+	noteget s1,i:i++
+	t9=s1
+	noteget s1,i:i++
+	t10=s1
+	noteget s1,i:i++
+	t11=s1
+	noteget s1,i:i++
+	t12=s1
+	noteget s1,i:i++
+	t13=s1
+	noteget s1,i:i++
+	t14=s1
+	noteget s1,i:i++
+	t15=s1
+	noteget s1,i:i++
+	t16=s1
+	noteget s1,i:i++
+	t17=s1
+	noteget s1,i:i++
+	t18=s1
+	noteget s1,i:i++
+	t19=s1
+	noteget s1,i:i++
+	t20=s1
+	noteget s1,i:i++
+	t21=s1
+	noteget s1,i:i++
+	t22=s1
+	noteget s1,i:i++
+	t23=s1
+	noteget s1,i:i++
+	t24=s1
+	noteget s1,i:i++
+	t25=s1
+	noteget s1,i:i++
+	t26=s1
+	noteget s1,i:i++
+	t27=s1
+	noteget s1,i:i++
+	t28=s1
+	noteget s1,i:i++
+	t29=s1
+	noteget s1,i:i++
+	t30=s1
+strrep t1,"1","©"
+strrep t1,"2","ª"
+strrep t1,"3","«"
+strrep t1,"4","¨"
+strrep t2,"1","©"
+strrep t2,"2","ª"
+strrep t2,"3","«"
+strrep t2,"4","¨"
+strrep t3,"1","©"
+strrep t3,"2","ª"
+strrep t3,"3","«"
+strrep t3,"4","¨"
+strrep t4,"1","©"
+strrep t4,"2","ª"
+strrep t4,"3","«"
+strrep t4,"4","¨"
+strrep t5,"1","©"
+strrep t5,"2","ª"
+strrep t5,"3","«"
+strrep t5,"4","¨"
+strrep t6,"1","©"
+strrep t6,"2","ª"
+strrep t6,"3","«"
+strrep t6,"4","¨"
+strrep t7,"1","©"
+strrep t7,"2","ª"
+strrep t7,"3","«"
+strrep t7,"4","¨"
+strrep t8,"1","©"
+strrep t8,"2","ª"
+strrep t8,"3","«"
+strrep t8,"4","¨"
+strrep t9,"1","©"
+strrep t9,"2","ª"
+strrep t9,"3","«"
+strrep t9,"4","¨"
+strrep t10,"1","©"
+strrep t10,"2","ª"
+strrep t10,"3","«"
+strrep t10,"4","¨"
+strrep t11,"1","©"
+strrep t11,"2","ª"
+strrep t11,"3","«"
+strrep t11,"4","¨"
+strrep t12,"1","©"
+strrep t12,"2","ª"
+strrep t12,"3","«"
+strrep t12,"4","¨"
+strrep t13,"1","©"
+strrep t13,"2","ª"
+strrep t13,"3","«"
+strrep t13,"4","¨"
+strrep t14,"1","©"
+strrep t14,"2","ª"
+strrep t14,"3","«"
+strrep t14,"4","¨"
+strrep t15,"1","©"
+strrep t15,"2","ª"
+strrep t15,"3","«"
+strrep t15,"4","¨"
+strrep t16,"1","©"
+strrep t16,"2","ª"
+strrep t16,"3","«"
+strrep t16,"4","¨"
+strrep t17,"1","©"
+strrep t17,"2","ª"
+strrep t17,"3","«"
+strrep t17,"4","¨"
+strrep t18,"1","©"
+strrep t18,"2","ª"
+strrep t18,"3","«"
+strrep t18,"4","¨"
+strrep t19,"1","©"
+strrep t19,"2","ª"
+strrep t19,"3","«"
+strrep t19,"4","¨"
+strrep t20,"1","©"
+strrep t20,"2","ª"
+strrep t20,"3","«"
+strrep t20,"4","¨"
+strrep t21,"1","©"
+strrep t21,"2","ª"
+strrep t21,"3","«"
+strrep t21,"4","¨"
+strrep t22,"1","©"
+strrep t22,"2","ª"
+strrep t22,"3","«"
+strrep t22,"4","¨"
+strrep t23,"1","©"
+strrep t23,"2","ª"
+strrep t23,"3","«"
+strrep t23,"4","¨"
+strrep t24,"1","©"
+strrep t24,"2","ª"
+strrep t24,"3","«"
+strrep t24,"4","¨"
+strrep t25,"1","©"
+strrep t25,"2","ª"
+strrep t25,"3","«"
+strrep t25,"4","¨"
+strrep t26,"1","©"
+strrep t26,"2","ª"
+strrep t26,"3","«"
+strrep t26,"4","¨"
+strrep t27,"1","©"
+strrep t27,"2","ª"
+strrep t27,"3","«"
+strrep t27,"4","¨"
+strrep t28,"1","©"
+strrep t28,"2","ª"
+strrep t28,"3","«"
+strrep t28,"4","¨"
+strrep t29,"1","©"
+strrep t29,"2","ª"
+strrep t29,"3","«"
+strrep t29,"4","¨"
+strrep t30,"1","©"
+strrep t30,"2","ª"
+strrep t30,"3","«"
+strrep t30,"4","¨"
+*loop1
+	cls
+	x1+=1
+if(a1==0){
+	pos x1,y1
+mes "@¿@¿"
+mes "  ||Q||"
+mes "ƒƒÐ@ƒÐ„"
+mes "ƒQƒÖQ„"
+mes "½@@¼"
+mes " | Q@|"
+mes " ¾@ ¾"
+}
+stick a,15
+if(a1==1){
+	
+	pos x1,y1
+mes "@¿@¿"
+mes "  ||Q||"
+mes "ƒƒÐ@ƒÐ„"
+mes "ƒQƒÖQ„"
+mes "¿@@¼"
+mes " | Q@|"
+mes " ¾@ ¾"
+}
+if(a1==2){
+	pos x1,y1
+mes "@¿@¿"
+mes "  ||Q||"
+mes "ƒƒÐ@ƒÐ„"
+mes "ƒQƒÖQ„"
+mes "¿@@¿"
+mes " | Q@|"
+mes " ¾@ ¾"
+}
+if(a1==8){
+	pos x1,y1
+mes "@¿@¿"
+mes "  ||Q||"
+mes "ƒƒÐ@ƒÐ„"
+mes "ƒQƒÖQ„"
+mes "¾@@¾"
+mes " | Q@|"
+mes " ¾@ ¾"
+}
+if(a1==4){
+	
+	pos x1,y1
+mes "@¿@¿"
+mes "  ||Q||"
+mes "ƒƒÐ@ƒÐ„"
+mes "ƒQƒÖQ„"
+mes "¼@@¿"
+mes " | Q@|"
+mes " ¾@ ¾"
+}
+	if(dance1==30){
+dance1=0
+}
+if(t1!=""){
+	if(dance1==0){
+toi1=t1
+}
+}else{
+	if(dance1==0){
+toi1=""
+dance1=-1
+}
+}
+if(t2!=""){
+	if(dance1==1){
+toi1=t2
+}
+}else{
+	if(dance1==1){
+toi1=""
+dance1=-1
+}
+}
+if(t3!=""){
+	if(dance1==2){
+toi1=t3
+}
+}else{
+	if(dance1==2){
+toi1=""
+dance1=-1
+}
+}
+if(t4!=""){
+	if(dance1==3){
+toi1=t4
+}
+}else{
+	if(dance1==3){
+toi1=""
+dance1=-1
+}
+}
+if(t5!=""){
+	if(dance1==4){
+toi1=t5
+}
+}else{
+	if(dance1==4){
+toi1=""
+dance1=-1
+}
+}
+if(t6!=""){
+	if(dance1==5){
+toi1=t6
+}
+}else{
+	if(dance1==5){
+toi1=""
+dance1=-1
+}
+}
+if(t7!=""){
+	if(dance1==6){
+toi1=t7
+}
+}else{
+	if(dance1==6){
+toi1=""
+dance1=-1
+}
+}
+if(t8!=""){
+	if(dance1==7){
+toi1=t8
+}
+}else{
+	if(dance1==7){
+toi1=""
+dance1=-1
+}
+}
+if(t9!=""){
+	if(dance1==8){
+toi1=t9
+}
+}else{
+	if(dance1==8){
+toi1=""
+dance1=-1
+}
+}
+if(t10!=""){
+	if(dance1==9){
+toi1=t10
+}
+}else{
+	if(dance1==9){
+toi1=""
+dance1=-1
+}
+}
+if(t11!=""){
+	if(dance1==10){
+toi1=t11
+}
+}else{
+	if(dance1==10){
+toi1=""
+dance1=-1
+}
+}
+if(t12!=""){
+	if(dance1==11){
+toi1=t12
+}
+}else{
+	if(dance1==11){
+toi1=""
+dance1=-1
+}
+}
+if(t13!=""){
+	if(dance1==12){
+toi1=t13
+}
+}else{
+	if(dance1==12){
+toi1=""
+dance1=-1
+}
+}
+if(t14!=""){
+	if(dance1==13){
+toi1=t14
+}
+}else{
+	if(dance1==13){
+toi1=""
+dance1=-1
+}
+}
+if(t15!=""){
+	if(dance1==14){
+toi1=t15
+}
+}else{
+	if(dance1==14){
+toi1=""
+dance1=-1
+}
+}
+if(t16!=""){
+	if(dance1==15){
+toi1=t16
+}
+}else{
+	if(dance1==15){
+toi1=""
+dance1=-1
+}
+}
+if(t17!=""){
+	if(dance1==16){
+toi1=t17
+}
+}else{
+	if(dance1==16){
+toi1=""
+dance1=-1
+}
+}
+if(t18!=""){
+	if(dance1==17){
+toi1=t18
+}
+}else{
+	if(dance1==17){
+toi1=""
+dance1=-1
+}
+}
+if(t19!=""){
+	if(dance1==18){
+toi1=t19
+}
+}else{
+	if(dance1==18){
+toi1=""
+dance1=-1
+}
+}
+if(t20!=""){
+	if(dance1==19){
+toi1=t20
+}
+}else{
+	if(dance1==19){
+toi1=""
+dance1=-1
+}
+}
+if(t21!=""){
+	if(dance1==20){
+toi1=t21
+}
+}else{
+	if(dance1==20){
+toi1=""
+dance1=-1
+}
+}
+if(t22!=""){
+	if(dance1==21){
+toi1=t22
+}
+}else{
+	if(dance1==21){
+toi1=""
+dance1=-1
+}
+}
+if(t23!=""){
+	if(dance1==22){
+toi1=t23
+}
+}else{
+	if(dance1==22){
+toi1=""
+dance1=-1
+}
+}
+if(t24!=""){
+	if(dance1==23){
+toi1=t24
+}
+}else{
+	if(dance1==23){
+toi1=""
+dance1=-1
+}
+}
+if(t25!=""){
+	if(dance1==24){
+toi1=t25
+}
+}else{
+	if(dance1==24){
+toi1=""
+dance1=-1
+}
+}
+if(t26!=""){
+	if(dance1==25){
+toi1=t26
+}
+}else{
+	if(dance1==25){
+toi1=""
+dance1=-1
+}
+}
+if(t27!=""){
+	if(dance1==26){
+toi1=t27
+}
+}else{
+	if(dance1==26){
+toi1=""
+dance1=-1
+}
+}
+if(t28!=""){
+	if(dance1==27){
+toi1=t28
+}
+}else{
+	if(dance1==27){
+toi1=""
+dance1=-1
+}
+}
+if(t29!=""){
+	if(dance1==28){
+toi1=t29
+}
+}else{
+	if(dance1==28){
+toi1=""
+dance1=-1
+}
+}
+if(t30!=""){
+	if(dance1==29){
+toi1=t30
+}
+}else{
+	if(dance1==29){
+toi1=""
+dance1=-1
+}
+}
+key1=strmid(toi1,i1,2)
+	pos 20,200
+	mes toi1 
+	mes key1
+	if(key1=="©"){
+	if(a==1){
+	a1=1
+	pos 20,240
+	mes "NICE!"
+	sc1+=100
+	i1+=2
+	}
+	if((a==4)||(a==2)||(a==8)){
+	i1+=2
+	}
+	}
+		if(key1=="¨"){
+	if(a==4){
+	a1=4
+	pos 20,240
+	mes "NICE!"
+	sc1+=100
+	i1+=2
+	}
+	if((a==1)||(a==2)||(a==8)){
+	i1+=2
+	}
+	}
+			if(key1=="ª"){
+	if(a==2){
+	a1=2
+	pos 20,240
+	mes "NICE!"
+	sc1+=100
+	i1+=2
+	}
+	if((a==1)||(a==4)||(a==8)){
+	i1+=2
+	}
+	}
+				if(key1=="«"){
+	if(a==8){
+	a1=8
+	pos 20,240
+	mes "NICE!"
+	sc1+=100
+	i1+=2
+	}
+	if((a==1)||(a==4)||(a==2)){
+	i1+=2
+	}
+	}
+				if(key1==""){
+i1=0
+dance1+=1
+				}
+	pos 20,260
+	mes "SCORE:"+sc1
+mes dance1
+	if(x1>400){
+	goto *end1
+	}
+wait 10
+goto *loop1
+
+*end1		
+		notesel buf
+	noteload "score.txt"
+	t0=gettime(0)
+	t1=gettime(1)
+	t2=gettime(2)
+	t3=gettime(3)
+	t4=gettime(4)
+	t5=gettime(5)
+	t6=gettime(6)
+noteadd str(t0) + ":" + str(t1) + ":" + str(t2) + ":" +str(t3) + ":" + str(t4) + ":" + str(t5) + ":" + str(t6) + ":" + "SCORE:" + str(sc1)
+notesave "score.txt"
+	mes "‚¨‚í‚è"
+stop
